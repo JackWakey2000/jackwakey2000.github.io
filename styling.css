@@ -6,5 +6,6 @@ h1 {
 }
 
 hr {
-	padding-top: -5rem
+	position: absolute;
+	bottom: 10px
 }
