@@ -3,8 +3,14 @@ h1 {
 	text-align: center;
 	font-family: "Fredoka";
 	font-size: 7.5em;
+	text-decoration: underline;
 }
 
 hr {
 	margin-top: -5em;
+}
+
+#desc {
+	text-align: center;
+	font-family: "Fredoka";
 }
