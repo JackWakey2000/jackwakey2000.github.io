@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
+@keyframes headerSlide {
+	from {margin-top: 10vh; opacity: 0;}
+	to {margin-top: 0; opacity: 1;}
+}
+
+#header_container {
+	animation-name: headerSlide;
+	animation-duration: 2s;
+}
+
 #header {
 	width: 10vw;
 	margin-top: -4vh;
