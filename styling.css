@@ -5,6 +5,10 @@
 	to {margin-top: 0; opacity: 1;}
 }
 
+body {
+	background-color: #2A3439;
+}
+
 #header_container {
 	animation-name: headerSlide;
 	animation-duration: 2s;
@@ -23,17 +27,87 @@ h1 {
 	text-align: center;
 	font-family: Fredoka;
 	font-size: 6vw;
+	background-image: linear-gradient(to right, #0f0, #00f);
+	background-clip: text;
+	color: transparent;
 }
 
 hr {
 	margin-top: -8vh;
 	height: 0.75vh;
-	background-color: black;
+	border: 0;
+	background-color: white;
 }
 
-#desc {
-	text-align: center;
+p {
 	font-family: "Fredoka";
 	font-size: 1.2vw;
+	color: white;
+}
 
+#games {
+	position: relative;
+	top: -7.5vh;
+	margin-left: 1vw;
+	color: white;
+}
+
+h2 {
+	font-family: "Fredoka";
+	font-size: 3vw;
+	text-decoration: underline;
+	position: relative;
+	top: -5vh;
+	color: white;
+}
+
+.link_container {
+	height: 10vh;
+	width: 15vw;
+	border-style: solid;
+	border-width: 1vh;
+	border-radius: 25px;
+	margin-left: 1vw;
+	margin-top: -7.5vh;
+	border-color: white;
+}
+
+.link_logo {
+	height: 100%;
+	margin-left: 1vw;
+}
+
+.link_text {
+	margin-top: -9vh;
+	margin-left: 5vw;
+	text-align: center;
+	color: white;
+}
+
+#ss {
+	margin-left: 17.5vw !important; 
+	margin-top: -11.75vh !important;
+	width: 20vw !important;
+}
+
+#ss_logo {
+	height: 90% !important;
+}
+
+#ss_text {
+	margin-top: -8vh !important;
+}
+
+#tl {
+	width: 25vw !important;
+}
+
+#tl_logo {
+	height: 85% !important;
+	margin-bottom: -6.75vh !important;
+	filter: invert(1);
+}
+
+#tl_text {
+	margin-top: -1.25vh !important;
 }
